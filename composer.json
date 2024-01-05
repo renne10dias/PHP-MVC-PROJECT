@@ -1,0 +1,24 @@
+{
+    "name": "labex/api-academia-mvc",
+    "description": "Web Service de uma academia",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app\\",
+            "core\\": "core\\",
+            "settings\\": "settings\\",
+            "public\\": "public\\",
+            "routes\\": "routes\\"
+        }
+    },
+    "authors": [
+        {
+            "name": "Renne"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "firebase/php-jwt": "^6.10"
+    }
+}

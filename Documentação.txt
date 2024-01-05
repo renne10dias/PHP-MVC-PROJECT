@@ -1,0 +1,19 @@
+SISTEMA DE GERÊNCIAMENTO DE ACADEMIA
+TECNOLOGIAS USADAS: PHP, MYSQL WORKBANCH
+PADRÃO DE PROJETO: MVC
+
+AUTENTICAÇÃO POR JWT
+
+$payload = [
+    'exp' => time() + 3600,
+    'iat' => time(),
+    'sub' => $userId,
+    'roles' => ['admin', 'user'],
+    'email' => $userEmail,
+    // ... outros dados necessários
+];
+
+
+
+
+
